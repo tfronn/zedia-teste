@@ -1,9 +1,3 @@
-// Função recebe como parâmetro o numero máximo (no caso da questão, 100)
-// No laço de repetição, caso o número seja múltiplo de 3 e 5, é salvo "Universe" substituindo o número.
-// Caso o número seja múltiplo de 3, é salvo "Uni" substituindo o número.
-// Caso o número seja múltiplo de 5, é salvo "Verse" substituindo o número.
-// Ao final, o array completo de 1 a 100 é exibido linha a linha, com todas as substituições executadas.
-
 function numbersList(num) {
   const numbersArray = [];
 
@@ -25,3 +19,10 @@ function numbersList(num) {
   console.log(numbersArray.join('\r\n'))
 }
 numbersList(100)
+
+
+// Função recebe como parâmetro o numero máximo (no caso da questão, 100)
+// No laço de repetição, caso o número seja múltiplo de 3 e 5, é salvo "Universe" substituindo o número.
+// Caso o número seja múltiplo de 3, é salvo "Uni" substituindo o número.
+// Caso o número seja múltiplo de 5, é salvo "Verse" substituindo o número.
+// Ao final, o array completo de 1 a 100 é exibido linha a linha, com todas as substituições executadas.
