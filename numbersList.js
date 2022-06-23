@@ -3,15 +3,15 @@ function numbersList(num) {
 
   for(i = 1; i <= num; i++) {
     const multiplesOfThreeAndFive = i % 3 === 0 && i % 5 === 0;
-    const multiplesOfThree = i != 3 && i % 3 === 0;
-    const multiplesOfFive = i != 5 && i % 5 === 0;
+    const multiplesOfThree = i % 3 === 0;
+    const multiplesOfFive = i % 5 === 0;
 
     if(multiplesOfThreeAndFive) {
-      numbersArray.push("Universe")
+      numbersArray.push("Universo")
     } else if (multiplesOfThree) {
       numbersArray.push("Uni")
     } else if (multiplesOfFive) {
-      numbersArray.push("Verse")
+      numbersArray.push("Verso")
     } else {
       numbersArray.push(i)
     }
